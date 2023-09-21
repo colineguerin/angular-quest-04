@@ -1,0 +1,24 @@
+.card {
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    width: 300px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    margin-left: 32px;
+}
+
+.age-container {
+    margin: 16px 0;
+}

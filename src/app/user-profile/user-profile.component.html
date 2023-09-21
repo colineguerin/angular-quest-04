@@ -1,0 +1,16 @@
+<div class="card">
+    <img [src]="user.photo" alt="photo" />
+    <div class="card-body">
+        <h3>Nom : {{user.name}}</h3>
+        <h3>Prénom : {{user.firstName}}</h3>
+        <p>{{user.quote}}</p>
+        <input type="text" [(ngModel)]="user.quote">
+    
+    <div class="age-container">
+        <div *ngIf="isAgeVisible">
+            <p>Âge : {{ user.age }} ans</p>
+        </div>
+        <button (click)="showHideAge()">Afficher/masquer mon âge</button>
+    </div>
+</div>
+</div>
